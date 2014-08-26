@@ -248,7 +248,7 @@ console.log( a ); // 2
 
 Now that we have a function as an expression by virtue of wrapping it in a `( )` pair, we can execute that function by adding another `()` on the end, like `(function foo(){ .. })()`. The first enclosing `( )` pair makes the function an expression, and the second `()` executes the function.
 
-This pattern is so common, a few years ago the community agreed on a term for it: **IIFE**, which stands for **I**mmediately **I**nvoked **F**unction **E**xpression.
+This pattern is so common, a few years ago the community agreed on a term for it: **IIFE**, which stands for <b>I</b>mmediately <b>I</b>nvoked <b>F</b>unction <b>E</b>xpression.
 
 Of course, IIFE's don't need names, necessarily -- the most common form of IIFE is to use an anonymous function expression. While certainly less common, naming an IIFE has all the aforementioned benefits over anonymous function expressions, so it's a good practice to adopt.
 
